@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsgwSZ21wyaGqLfT2ihr6_vE73zWvvkS08pw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#pole{
+    height: 540px;
+    width: 10px;
+    background-color: black;
+    margin-left: 500px;
+    margin-top: 200px;
+    z-index: 1;
+}
+
+#flag{
+    display: none;
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    left: 505px;
+    top: 220px;
+animation: mymove 5s;
+}
+
+@keyframes mymove{
+    0%{top: 610px;}
+    100%{top: 224px;}
+}
+
+.caption{
+    position: absolute;
+    top: 410px;
+    left: 950px;
+    height: 50px;
+    color: rgb(7, 7, 148);
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+}
+
+#wish{
+    display: none;
+    font-size: 45px;
+    left: 800px;
+}
